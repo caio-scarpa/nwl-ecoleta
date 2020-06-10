@@ -1,0 +1,28 @@
+:root {
+    --title-color: #322153; /* Atalho para cor */
+    --primary-color: #34cb79;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background: linear-gradient(to left, #c6f8de, #f7f8f1d0);
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none; /* Retirando sublinhado do link */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--title-color); /* Cor de texto */
+    font-family: 'Ubuntu', sans-serif;
+}

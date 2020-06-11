@@ -81,3 +81,8 @@ function handleSelectedItem(event) {
     
     collectedItems.value = selectedItems
 }
+
+const cors = require("cors");
+app.use(cors());
+
+module.exports = mongoose.model("Post", PostSchema);

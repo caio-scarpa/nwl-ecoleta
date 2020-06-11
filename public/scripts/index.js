@@ -14,3 +14,5 @@ const cors = require("cors");
 app.use(cors());
 
 module.exports = mongoose.model("Post", PostSchema);
+
+server.listen(process.env.PORT ||  3000) //ligar servidor

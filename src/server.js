@@ -100,5 +100,3 @@ server.get("/search", (req, res) => {
         return res.render("search-results.html", { places: rows, total: total})
     })
 })
-
-server.listen(process.env.PORT ||  3000) //ligar servidor

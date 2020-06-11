@@ -1,9 +1,9 @@
-# :recycle: Ecoleta :recycle:
+# :recycle: Site Ecoleta :recycle:
  
 Projeto **Ecoleta** desenvolvido na Next Level Week (01/06 até 07/06) da Rocketseat.
 
 
-## O Projeto
+## Foco do Projeto
 
 Portal para consulta e cadastro de pontos de coleta de resíduos recicláveis ou reutilizáveis.
 
@@ -14,7 +14,7 @@ Portal para consulta e cadastro de pontos de coleta de resíduos recicláveis ou
 ![Home](/image/Ecoleta.png)
 
 
-## Tecnologias Usadas
+## Tecnologias Utilizadas
 ### Front-end
 - HTML
 - CSS

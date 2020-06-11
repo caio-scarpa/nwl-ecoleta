@@ -1,5 +1,8 @@
 const express = require("express")
 const server = express()
+const cors = require("cors");
+
+module.exports = mongoose.model("Post", PostSchema);
 
 // pegar o banco de dados
 const db = require("./database/db")
